@@ -1,0 +1,2287 @@
+@font-face {
+  font-family: 'blackswordregular';
+  src: url('/fontes/blacksword.woff2') format('woff2'), url('/fontes/blacksword.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/*gerais*/
+/*# sourceMappingURL=css.css.map */
+/*# sourceMappingURL=css.css.map */
+/*# sourceMappingURL=css.css.map */
+row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+p {
+  font-family: 'Roboto', sans-serif !important;
+  line-break: auto !important;
+  height: auto !important;
+  overflow: hidden !important;
+}
+h1 {
+  font-family: 'Roboto', sans-serif !important;
+  line-break: auto !important;
+  font-family: 'Bebas Neue', cursive !important;
+  padding: 0px;
+  margin: 0px;
+}
+h2 {
+  font-family: 'Roboto', sans-serif !important;
+  line-break: auto !important;
+  font-family: 'Bebas Neue', cursive !important;
+  padding: 0px;
+  margin: 0px;
+}
+h3 {
+  font-family: 'Roboto', sans-serif !important;
+  line-break: auto !important;
+  font-family: 'Bebas Neue', cursive !important;
+  padding: 0px;
+  margin: 0px;
+}
+h4 {
+  font-family: 'Roboto', sans-serif !important;
+  line-break: auto !important;
+  font-family: 'Bebas Neue', cursive !important;
+  padding: 0px;
+  margin: 0px;
+}
+h5 {
+  font-family: 'Roboto', sans-serif !important;
+  line-break: auto !important;
+  font-family: 'Bebas Neue', cursive !important;
+  padding: 0px;
+  margin: 0px;
+}
+h6 {
+  font-family: 'Roboto', sans-serif !important;
+  line-break: auto !important;
+  font-family: 'Bebas Neue', cursive !important;
+  padding: 0px;
+  margin: 0px;
+}
+span {
+  font-family: 'Roboto', sans-serif !important;
+  line-break: auto !important;
+}
+font {
+  font-family: 'Roboto', sans-serif !important;
+  line-break: auto !important;
+}
+small {
+  font-family: 'Roboto', sans-serif !important;
+  line-break: auto !important;
+}
+li {
+  font-family: 'Roboto', sans-serif !important;
+  line-break: auto !important;
+}
+body {
+  font-family: 'Roboto', sans-serif !important;
+  line-break: auto !important;
+}
+.container {
+  padding: 0px !important;
+}
+.container-fluid {
+  padding: 0px !important;
+}
+.col-md-1 {
+  padding: 0px !important;
+}
+.col-md-12 {
+  padding: 0px !important;
+}
+.col-md-3 {
+  padding: 0px !important;
+}
+.col-md-4 {
+  padding: 0px !important;
+}
+.col-md-5 {
+  padding: 0px !important;
+}
+.col-md-6 {
+  padding: 0px !important;
+}
+.col-md-7 {
+  padding: 0px !important;
+}
+.col-md-8 {
+  padding: 0px !important;
+}
+.col-md-9 {
+  padding: 0px !important;
+}
+.col-md-10 {
+  padding: 0px !important;
+}
+.col-md-11 {
+  padding: 0px !important;
+}
+.pdBox {
+  padding: 10px !important;
+}
+a {
+  text-decoration: none;
+  color: #000 !important;
+}
+h2.titDiferenciado {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  font-size: 40px !important;
+}
+.header {
+  z-index: 1000;
+}
+.header .top {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+.header .top .logo img {
+  width: 100%;
+  height: auto;
+}
+.header .top .menu {
+  height: auto;
+  overflow: hidden;
+  float: right;
+  width: auto;
+}
+.header .top .menu ul {
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.header .top .menu ul li {
+  display: inline;
+  background-size: 35px 35px;
+  background-repeat: no-repeat;
+  background-position: 0px 20px;
+  margin-right: 20px;
+  padding-left: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+.header .top .menu ul li a {
+  text-decoration: none;
+}
+.header .top .menu ul li.login {
+  background-image: url('/imagens/icon_login.png');
+}
+.header .top .menu ul li.signup {
+  background-image: url('/imagens/icon_signup.png');
+}
+.header .top .menu ul li.language {
+  background-image: url('/imagens/icon_world.png');
+}
+.conteudo .internas {
+  margin-top: -180px;
+  width: 100% !important;
+}
+.conteudo .internas .banner {
+  padding-top: 200px;
+  background-image: url('/imagens/background-home.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 600px;
+  padding-bottom: 30px;
+}
+.conteudo .internas .banner .chamada {
+  height: auto;
+  overflow: hidden;
+  min-height: 500px;
+}
+.conteudo .internas .banner .chamada h2 {
+  display: block;
+  font-size: 60px;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  padding-right: 90px !important;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.conteudo .internas .banner .tabs {
+  padding-top: 30px !important;
+}
+.conteudo .internas .bannerPacotes {
+  margin-top: -160px;
+  background-color: #abde12;
+  min-height: 230px;
+  padding: 30px;
+  background-image: url('/imagens/pititopitita.png');
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+.conteudo .internas .bannerPacotes h1 {
+  display: block;
+  padding-left: 30%;
+  width: 65%;
+  color: #000 !important;
+  font-size: 45px;
+  padding-top: 20px;
+  text-transform: none !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold;
+}
+.conteudo .internas .bannerSuaviagem {
+  margin-top: -160px;
+  background-color: #ea7820e1;
+  min-height: 230px;
+  padding: 30px;
+  background-image: url('/imagens/bg_monteviagem.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.conteudo .internas .bannerSuaviagem h1 {
+  display: block;
+  padding-left: 30%;
+  width: 65%;
+  color: #000 !important;
+  font-size: 45px;
+  padding-top: 20px;
+  text-transform: none !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold;
+}
+.conteudo .internas .bannerDicas {
+  margin-top: -160px;
+  background-color: #882a2ab7;
+  min-height: 230px;
+  padding: 30px;
+  background-image: url('/imagens/bg_dicas.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.conteudo .internas .bannerDicas h1 {
+  display: block;
+  padding-left: 30%;
+  width: 65%;
+  color: #fff !important;
+  font-size: 45px;
+  padding-top: 20px;
+  text-transform: none !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold;
+}
+.conteudo .internas .bannerAdvantages {
+  margin-top: -160px;
+  background-color: #0A9763 !important;
+  min-height: 230px;
+  padding: 30px;
+  background-image: url('/imagens/img_hotel.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.conteudo .internas .bannerAdvantages h1 {
+  display: block;
+  padding-left: 30%;
+  width: 65%;
+  color: #fff !important;
+  font-size: 45px;
+  padding-top: 20px;
+  text-transform: none !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold;
+}
+.conteudo .internas .bannerHotels {
+  margin-top: -160px;
+  background-color: #0A9763 !important;
+  min-height: 230px;
+  padding: 30px;
+  background-image: url('/imagens/img_hotel.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.conteudo .internas .bannerHotels h1 {
+  display: block;
+  padding-left: 30%;
+  width: 65%;
+  color: #fff !important;
+  font-size: 45px;
+  padding-top: 20px;
+  text-transform: none !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold;
+}
+.conteudo .internas .bannerHoteis {
+  margin-top: -160px;
+  background-color: #882a2ab7;
+  min-height: 230px;
+  padding: 30px;
+  background-image: url('/imagens/auroraboreal.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.conteudo .internas .bannerHoteis h1 {
+  display: block;
+  padding-left: 30%;
+  width: 65%;
+  color: #fff !important;
+  font-size: 45px;
+  padding-top: 20px;
+  text-transform: none !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold;
+}
+.conteudo .internas .bannerInternadestinos {
+  margin-top: -160px;
+  background-color: #882a2ab7;
+  min-height: 230px;
+  padding: 30px;
+  background-image: url('/imagens/auroraboreal.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.conteudo .internas .bannerInternadestinos h1 {
+  display: block;
+  padding-left: 30%;
+  width: 65%;
+  color: #fff !important;
+  font-size: 45px;
+  padding-top: 20px;
+  text-transform: none !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold;
+}
+.benefitsDestaques {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 400px !important;
+  background-color: #eee;
+  padding: 35px !important;
+}
+.benefitsDestaques h2.titulo {
+  display: block;
+  padding-left: 20px !important;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #000 !important;
+}
+.benefitsDestaques .cardiff .bxTitulo {
+  margin: 20px;
+  font-size: 12px !important;
+  color: #000 !important;
+}
+.benefitsDestaques .cardiff .bxImage {
+  min-height: 150px;
+  margin: 20px;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 5px !important;
+}
+.benefitsDestaques .cardiff .bxTexto {
+  margin: 20px !important;
+  font-size: 14px !important;
+}
+.destiny .imgCont {
+  padding: 2px !important;
+  position: relative;
+  cursor: pointer;
+}
+.destiny .imgCont .tituloDestinos {
+  position: absolute;
+  vertical-align: middle;
+  color: #fff;
+  line-height: 100%;
+  padding-top: 20%;
+  font-size: 25px;
+  font-weight: bold !important;
+  width: 100%;
+  height: 100%;
+  text-align: center !important;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.destiny .imgCont img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 92%;
+  height: auto;
+  border: 1px solid #dfdfdf !important;
+}
+.destiny .sidebar {
+  padding: 5px;
+}
+.internasPage .fotosInternas {
+  margin-top: 10px;
+}
+.internasPage .fotosInternas img {
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 20px;
+}
+.internasPage .textoInternas {
+  margin-top: 10px;
+}
+.tabs .boxTabs {
+  padding: 10px;
+}
+.tabs .boxTabs ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  overflow: hidden;
+}
+.tabs .boxTabs ul li {
+  display: inline;
+  float: left;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 5px;
+  background-color: #0896ff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer !important;
+  cursor: hand !important;
+}
+.tabs .boxTabs ul li:first-child {
+  margin-left: 0px;
+}
+.tabs .boxTabs ul li.inactive {
+  color: #fff;
+  background-color: #0896ff;
+}
+.tabs .boxTabs .contTabs {
+  width: 100%;
+  background-color: #ffc245;
+  padding: 20px;
+  margin-top: 0px;
+  border-radius: 0px;
+}
+.menuBox {
+  position: relative !important;
+  height: auto !important;
+  overflow: hidden !important;
+}
+.menuBox .bxMenu {
+  width: 20%;
+  float: left;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Bebas Neue', cursive;
+  line-height: 50px;
+}
+.menuBox .bxMenu.dicas {
+  color: #fff !important;
+  background-image: url('/imagens/dicas_background.png');
+}
+.menuBox .bxMenu.dicas a {
+  color: #fff;
+  text-decoration: none;
+}
+.menuBox .bxMenu.destinos {
+  color: #fff !important;
+  background-image: url('/imagens/destinos_background.png');
+}
+.menuBox .bxMenu.destinos a {
+  color: #fff;
+  text-decoration: none;
+}
+.menuBox .bxMenu.pacotes {
+  color: #000 !important;
+  background-image: url('/imagens/pacotes_background.png');
+}
+.menuBox .bxMenu.pacotes a {
+  color: #000;
+  text-decoration: none;
+}
+.menuBox .bxMenu.monteviagem {
+  color: #000 !important;
+  background-image: url('/imagens/montesuaviagem.png');
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.menuBox .bxMenu.monteviagem a {
+  color: #000;
+  text-decoration: none;
+}
+.menuBox .bxMenu.hoteis {
+  color: #fff !important;
+  background-image: url('/imagens/hoteis.png');
+}
+.menuBox .bxMenu.hoteis a {
+  color: #fff;
+  text-decoration: none;
+}
+.destaqueSimples {
+  position: relative;
+  height: auto;
+  overflow: hidden !important;
+  margin-top: 20px;
+}
+.destaqueSimples .bxDestaquesimples .imagem {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+.destaqueSimples .bxDestaquesimples .imagem img {
+  display: block;
+}
+.destaqueSimples .bxDestaquesimples h3 {
+  display: block;
+  position: relative;
+  color: #fff;
+  margin-top: -90px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 45px;
+  padding-bottom: 20px;
+  padding-right: 60px;
+  text-shadow: 2px 2px 3px rgba(86, 86, 86, 0.9);
+}
+.destaqueSimples .bxDestaquesimples p {
+  padding-top: 30px;
+  display: block;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.destaqueSimples .bxDicas .imagem {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+.destaqueSimples .bxDicas .imagem img {
+  display: block;
+}
+.destaqueSimples .bxDicas .imagem .saiba {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 200000;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNDQ4IDQ0OCIgd2lkdGg9IjUxMiI+PGc+PHBhdGggZD0ibTQwOCAxODRoLTEzNmMtNC40MTc5NjkgMC04LTMuNTgyMDMxLTgtOHYtMTM2YzAtMjIuMDg5ODQ0LTE3LjkxMDE1Ni00MC00MC00MHMtNDAgMTcuOTEwMTU2LTQwIDQwdjEzNmMwIDQuNDE3OTY5LTMuNTgyMDMxIDgtOCA4aC0xMzZjLTIyLjA4OTg0NCAwLTQwIDE3LjkxMDE1Ni00MCA0MHMxNy45MTAxNTYgNDAgNDAgNDBoMTM2YzQuNDE3OTY5IDAgOCAzLjU4MjAzMSA4IDh2MTM2YzAgMjIuMDg5ODQ0IDE3LjkxMDE1NiA0MCA0MCA0MHM0MC0xNy45MTAxNTYgNDAtNDB2LTEzNmMwLTQuNDE3OTY5IDMuNTgyMDMxLTggOC04aDEzNmMyMi4wODk4NDQgMCA0MC0xNy45MTAxNTYgNDAtNDBzLTE3LjkxMDE1Ni00MC00MC00MHptMCAwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIiBzdHlsZT0iZmlsbDojRkZGRkZGIj48L3BhdGg+PC9nPiA8L3N2Zz4=');
+  background-size: 40px 40px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.destaqueSimples .bxDicas .imagem .saiba.black {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.destaqueSimples .bxDicas .imagem .saiba.vermelho {
+  background-color: #9b3737ce;
+}
+.destaqueSimples .bxDicas .imagem .saiba.brown {
+  background-color: #665525c4;
+}
+.destaqueSimples .bxDicas .imagem .saiba.blue {
+  background-color: #1ab6c4c4;
+}
+.destaqueSimples .bxDicas .imagem .saiba.yellow {
+  background-color: #aca01ed0;
+}
+.destaqueSimples .bxDicas .imagem .saiba.orange {
+  background-color: #ea7820e1 !important;
+}
+.destaqueSimples .bxDicas h3 {
+  display: block;
+  position: relative;
+  color: #fff;
+  margin-top: -60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-right: 60px;
+  text-shadow: 2px 2px 4px #757575;
+}
+.destaqueSimples .bxDicas p {
+  padding-top: 30px;
+  display: block;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.slick-track {
+  width: auto;
+  min-width: 5050px !important;
+}
+.formDicas input[type=text] {
+  width: 96% !important;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.formDicas textarea {
+  width: 100% !important;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.destaqueBanners {
+  position: relative;
+  height: auto;
+  overflow: hidden !important;
+  margin-top: 20px;
+}
+.destaqueBanners .bxDestaquebanner .imagem {
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+.destaqueBanners .bxDestaquebanner .imagem img {
+  display: block;
+}
+.destaqueBanners .bxDestaquebanner h3 {
+  display: block;
+  position: absolute;
+  height: auto;
+  overflow: hidden;
+  bottom: 0px;
+  color: #fff;
+  padding: 10px !important;
+  font-weight: normal;
+  font-size: 20px;
+  background-color: #1d2f3c;
+  text-transform: none !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+.slick-prev {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 30px;
+  height: 70px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  left: -30px !important;
+  background-image: url('/imagens/setaesq_pequena.png');
+}
+.slick-prev:before {
+  font-family: 'slick';
+  font-size: 0px !important;
+  line-height: 1;
+  opacity: 0.75;
+}
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 30px;
+  height: 70px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  right: -20px !important;
+  background-image: url('/imagens/setadir_pequena.png');
+}
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 0px !important;
+  line-height: 1;
+  opacity: 0.75;
+}
+[type=button] {
+  -webkit-appearance: button;
+}
+[type=reset] {
+  -webkit-appearance: button;
+}
+[type=submit] {
+  -webkit-appearance: button;
+}
+button {
+  -webkit-appearance: button;
+}
+.pacotesDestinos {
+  margin-top: 18px !important;
+  margin: 8px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.58);
+  padding: 40px !important;
+  min-height: 420px;
+}
+.pacotesDestinos .imagem {
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden !important;
+}
+.pacotesDestinos p {
+  padding: 5px;
+  display: block;
+}
+.pacotesDestinos h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.carrosselPacotes {
+  margin: 8px;
+}
+.destaqueCarrossel {
+  padding: 5px !important;
+  height: auto;
+  overflow: hidden !important;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.58);
+}
+.destaqueCarrossel .bxCarrossel {
+  padding: 10px !important;
+  height: auto !important;
+  overflow: hidden !important;
+}
+.destaqueCarrossel .bxCarrossel h2 {
+  color: #000;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 28px;
+  float: left;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.destaqueCarrossel .bxCarrossel .verTudo a {
+  float: right;
+  display: block;
+  text-align: right;
+  text-transform: none;
+  font-weight: bold;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.destaqueCarrossel .bxCarrossel .cxCarrossel {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  min-height: 200px;
+  width: 100%;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+.destaqueCarrossel .bxCarrossel .cxCarrossel .seta {
+  position: absolute;
+  height: 100%;
+  min-height: 80px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 30px;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+.destaqueCarrossel .bxCarrossel .cxCarrossel .seta.esquerda {
+  left: 0px;
+  background-image: url('/imagens/seta_esquerda.png');
+}
+.destaqueCarrossel .bxCarrossel .cxCarrossel .seta.direita {
+  right: 0px;
+  background-image: url('/imagens/seta_direita.png');
+}
+.destaqueCarrossel .bxCarrossel .cxCarrossel .conteudo {
+  padding-left: 60px;
+  padding-right: 60px;
+  height: auto;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.destaqueCarrossel .bxCarrossel .cxCarrossel .conteudo .imagem {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+}
+.destaqueCarrossel .bxCarrossel .cxCarrossel .conteudo .texto {
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.botReserva {
+  height: auto !important;
+  overflow: hidden !important;
+  margin-top: 20px;
+}
+.botReserva button {
+  border: 0px !important;
+  color: #fff !important;
+  width: 90%;
+  padding: 10px !important;
+  background-color: green;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-right: 5%;
+}
+.bannerVantagens {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px !important;
+  padding: 20px;
+}
+.destaqueBannersespecial {
+  margin-top: 20px;
+  height: auto;
+  overflow: hidden;
+}
+.destaqueBannersespecial .bxCarrosselespecial {
+  padding: 20px;
+  min-height: 370px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.destaqueBannersespecial .bxCarrosselespecial .titulo {
+  position: absolute;
+  top: 5px;
+  width: 60%;
+  left: 5px;
+  height: auto;
+  padding: 5px;
+  font-size: 50px;
+  line-height: 45px;
+  color: #000;
+  font-family: 'Bebas Neue', cursive !important;
+  font-weight: normal;
+}
+.destaqueBannersespecial .bxCarrosselespecial .tituloCursiva {
+  position: absolute;
+  top: 10px;
+  width: 60%;
+  left: 10px;
+  height: auto;
+  padding: 5px;
+  font-size: 50px;
+  line-height: 60px;
+  color: #000;
+  font-family: 'blackswordregular';
+  font-weight: normal;
+}
+.destaqueBannersespecial .bxCarrosselespecial .textoCursiva {
+  top: 160px;
+  font-size: 16px;
+  position: absolute;
+  width: 50%;
+}
+.destaqueBannersespecial .bxCarrosselespecial .desconto {
+  font-size: 180px;
+  position: absolute;
+  bottom: -60px;
+  left: 5px;
+  color: #81ff00;
+  font-weight: normal;
+  font-family: 'Bebas Neue', condensed !important;
+  text-shadow: 2px 2px 4px #757575;
+  font-stretch: condensed;
+}
+.destaqueBannersespecial .bxCarrosselespecial .saiba {
+  position: absolute;
+  right: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive !important;
+}
+.destaqueBannersespecial .bxCarrosselespecial .saiba span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.destaqueBannersespecial .bxCarrosselespecial .saiba.alto {
+  top: 10px;
+}
+.destaqueBannersespecial .bxCarrosselespecial .saiba.baixo {
+  bottom: 5px;
+}
+.carrossel_internas {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 20px !important;
+}
+.destaqueBannersdicas {
+  margin-top: 20px;
+  height: auto;
+  overflow: hidden;
+}
+.destaqueBannersdicas .bxCarrosselespecial {
+  padding: 20px;
+  min-height: 450px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.destaqueBannersdicas .bxCarrosselespecial .titulo {
+  position: absolute;
+  top: 10px;
+  width: 60%;
+  left: 5px;
+  height: auto;
+  padding: 5px;
+  font-size: 50px;
+  line-height: 45px;
+  color: #000;
+  font-family: 'Bebas Neue', cursive !important;
+  font-weight: normal;
+}
+.destaqueBannersdicas .bxCarrosselespecial .tituloCursiva {
+  position: absolute;
+  top: 10px;
+  width: 60%;
+  left: 10px;
+  height: auto;
+  padding: 5px;
+  font-size: 50px;
+  line-height: 60px;
+  color: #000;
+  font-family: 'blackswordregular';
+  font-weight: normal;
+}
+.destaqueBannersdicas .bxCarrosselespecial .textoCursiva {
+  top: 160px;
+  font-size: 16px;
+  position: absolute;
+  width: 50%;
+}
+.destaqueBannersdicas .bxCarrosselespecial .desconto {
+  font-size: 230px;
+  position: absolute;
+  bottom: -80px;
+  left: 5px;
+  color: #81ff00;
+  font-weight: normal;
+  font-family: 'Bebas Neue', condensed !important;
+  font-stretch: condensed;
+}
+.destaqueBannersdicas .bxCarrosselespecial .saiba {
+  position: absolute;
+  right: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive !important;
+}
+.destaqueBannersdicas .bxCarrosselespecial .saiba span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.destaqueBannersdicas .bxCarrosselespecial .saiba.alto {
+  top: 10px;
+}
+.destaqueBannersdicas .bxCarrosselespecial .saiba.baixo {
+  bottom: 5px;
+}
+.carrosselDestaques {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding: 20px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #abde12;
+}
+.carrosselDestaques h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.carrosselDestaques .bxCarrossel {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.carrosselDestaques .bxCarrossel .setas {
+  position: absolute;
+  height: 100%;
+  background-repeat: no-repeat !important;
+  background-position: left center;
+  width: 25px !important;
+}
+.carrosselDestaques .bxCarrossel .setas.direita {
+  right: 0px;
+  background-image: url('/imagens/setadir_pequena.png');
+}
+.carrosselDestaques .bxCarrossel .setas.esquerda {
+  left: 0px;
+  background-image: url('/imagens/setaesq_pequena.png');
+}
+.carrosselDestaques .bxCarrossel .imagem img {
+  width: 100%;
+}
+.carrosselDestaques .bxCarrossel .conteudo {
+  padding-left: 30px !important;
+  padding-right: 60px !important;
+}
+.carrosselDestaques .bxCarrossel .conteudo h3 {
+  font-size: 30px;
+}
+.carrosselDestaques .bxCarrossel .conteudo p {
+  font-size: 14px;
+}
+.carrosselDestaques.dicas {
+  background-color: #882a2a !important;
+}
+.carrosselDestaques.dicas h2 {
+  color: #fff !important;
+}
+.carrosselDestaques.dicas h3 {
+  color: #fff !important;
+}
+.carrosselDestaques.dicas p {
+  color: #fff !important;
+}
+.carrosselDestaques.destinos {
+  background-color: #344aaa !important;
+}
+.carrosselDestaques.destinos h2 {
+  color: #fff !important;
+}
+.carrosselDestaques.destinos h3 {
+  color: #fff !important;
+}
+.carrosselDestaques.destinos p {
+  color: #fff !important;
+}
+.carrosselDestaques.hoteis {
+  background-color: #0A9763 !important;
+}
+.carrosselDestaques.hoteis h2 {
+  color: #fff !important;
+}
+.carrosselDestaques.hoteis h3 {
+  color: #fff !important;
+}
+.carrosselDestaques.hoteis p {
+  color: #fff !important;
+}
+.bannerSpace2 {
+  position: relative;
+  overflow: hidden !important;
+  background-position: center center;
+  background-size: cover !important;
+  height: 430px;
+  border: 1px solid #eee;
+  margin: 10px;
+}
+.boxReservas {
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.58);
+  margin: 10px;
+}
+.boxReservas h3 {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.boxReservas .imagem {
+  height: auto;
+  overflow: hidden;
+  min-height: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.boxReservas p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px !important;
+  display: block;
+  text-align: center;
+}
+.boxReservas .precos span.descricao {
+  display: block;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+.boxReservas .precos span.preco {
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  font-size: 35px;
+}
+.boxReservas a {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+.boxReservas a button {
+  border: 0px;
+  border-radius: 10px;
+  background-color: #75b7f1;
+  width: 80%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 5px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  font-weight: normal;
+  margin-top: 10px;
+  color: #fff !important;
+}
+.boxReservas a button.pacotes {
+  background-color: #000;
+}
+.bgTextos {
+  background: #ff8400;
+  background: linear-gradient(180deg, rgba(255, 132, 0, 0) 0%, rgba(0, 0, 0, 0.28895308) 65%, rgba(0, 0, 0, 0.49063375) 100%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0px;
+  z-index: 0;
+}
+.paddingGeral {
+  padding: 15px !important;
+  box-sizing: content-box;
+  box-sizing: border-box;
+  box-sizing: inherit;
+}
+footer {
+  padding: 20px;
+  background-color: #000;
+}
+footer .contentFooter {
+  height: auto;
+  overflow: hidden;
+  min-height: 300px;
+}
+footer .contentFooter .acessos {
+  padding-top: 60px !important;
+  height: auto;
+  overflow: hidden;
+}
+footer .contentFooter .acessos .icons {
+  padding: 40px !important;
+}
+footer .contentFooter .acessos .icons img {
+  width: 100%;
+  height: auto;
+}
+footer .contentFooter .acessos .icon_redes {
+  margin-top: 20px;
+  padding: 30px !important;
+}
+footer .contentFooter .acessos .icon_redes img {
+  width: 100%;
+  height: auto;
+}
+footer .contentFooter .menu {
+  padding-top: 40px !important;
+  height: auto;
+  overflow: hidden;
+}
+footer .contentFooter .menu ul {
+  list-style-type: none;
+  padding: 0px;
+}
+footer .contentFooter .menu ul:first-child {
+  border-right: 1px solid #fff;
+}
+footer .contentFooter .menu ul li {
+  padding-left: 30px !important;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: bold !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+#img-carousel-home {
+  display: inline-block;
+  position: relative;
+}
+#img-carousel-home figcaption {
+  position: absolute;
+}
+#img-carousel-home .titulo {
+  top: 20px;
+  width: 70%;
+  left: 30px;
+  min-height: 100px;
+  padding: 20px;
+  font-size: 50px;
+  color: #013ABD;
+  font-family: 'blackswordregular';
+  font-weight: normal;
+}
+#img-carousel-home .texto {
+  top: 180px;
+  width: 60%;
+  left: 30px;
+  height: auto;
+  padding: 20px;
+  font-size: 20px;
+  color: #000;
+  font-weight: normal;
+  text-shadow: 0px 0px 2px black;
+}
+#img-carousel-home .saibamais {
+  position: absolute;
+  top: 10px;
+  right: 95px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive !important;
+}
+.carousel .img-opacity {
+  opacity: 0.95;
+}
+.carousel .carousel-indicators li {
+  width: 0.59rem;
+  height: 0.59rem;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: black;
+  opacity: 1 !important;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: lawngreen !important;
+}
+.leftSide {
+  margin-top: 20px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.leftSide .card {
+  border: none !important;
+}
+.leftSide .left {
+  padding-right: 10px !important;
+}
+.leftSide .right {
+  padding-left: 10px !important;
+}
+.leftSide .bottom {
+  margin-top: 20px;
+}
+.rightSide {
+  margin-top: 20px;
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+.rightSide .left {
+  padding-right: 10px !important;
+  padding-left: 15px !important;
+}
+.rightSide .right {
+  padding-left: 10px !important;
+  padding-right: 15px !important;
+}
+.carousel-item {
+  height: 380px !important;
+}
+.carousel-ewe {
+  margin: 0 auto;
+  padding: 20px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  background-color: #10A973 !important;
+  min-height: 250px;
+}
+.carousel-ewe .card {
+  min-height: 200px;
+  background-color: transparent;
+  border: none;
+}
+.carousel-ewe .card-deck {
+  margin: 0 auto;
+}
+.carousel-ewe .card-text {
+  text-align: justify;
+}
+.carousel-ewe .card-img {
+  min-height: 150px !important;
+}
+.carousel-ewe .slick-next:hover {
+  display: block !important;
+}
+.carousel-ewe #center-carousel-block {
+  margin: 0 auto;
+}
+.carousel-ewe #img-card-carousel {
+  padding: 0 10px 0 0 !important;
+  float: left;
+}
+#align-to-center {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+#bottom-blocks .card-img-top {
+  max-height: 230px !important;
+}
+#bottom-area {
+  margin-top: 20px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+#bottom-area h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#bottom-area .card {
+  border-radius: 0px !important;
+  border: none !important;
+  padding: 0 !important;
+  text-align: justify;
+}
+#bottom-area .card .card-title {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+#bottom-area .card .card-body {
+  padding-left: 0 !important;
+}
+#packages-card {
+  margin-bottom: 30px;
+}
+#packages-card .card-title {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+#packages-card .card-img-top {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  max-height: 150px !important;
+}
+#packages-card .card-text {
+  padding: 0 !important;
+}
+.d-block {
+  min-height: 420px;
+}
+.btn-primary {
+  color: #fff !important;
+  background-color: #000000 !important;
+  border: 0px;
+}
+.paginaHoteis .carHoteis .slick-prev {
+  display: none !important;
+}
+.paginaHoteis .carHoteis .slick-next {
+  display: none !important;
+}
+.paginaHoteis .carHoteis .slick-dots {
+  position: absolute;
+  bottom: 0px !important;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.paginaHoteis .carrosselHoteis .bxSlide {
+  padding: 10px !important;
+  padding-top: 0px !important;
+}
+.paginaHoteis .carrosselHoteis .bxSlide img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  height: 250px;
+}
+.paginaHoteis .card-title {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center !important;
+  font-size: 25px !important;
+}
+.paginaHoteis .carousel-ewe .card-title {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left !important;
+  text-transform: uppercase;
+  font-size: 25px !important;
+}
+.paginaHoteis #bottom-blocks .card-title {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left !important;
+  text-transform: uppercase;
+  font-size: 25px !important;
+}
+.boxTabs li.active {
+  background-color: #ffc245 !important;
+  color: #000 !important;
+  cursor: pointer !important;
+}
+.InternasNovas {
+  height: auto;
+  overflow: hidden;
+}
+.InternasNovas h1 {
+  padding-left: 20px !important;
+}
+.InternasNovas .bxImagem {
+  padding: 10px;
+  min-height: 300px;
+  height: auto !important;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 25px !important;
+}
+.InternasNovas .bxTexto {
+  padding: 20px;
+  padding-top: 0px !important;
+  text-align: justify;
+}
+.InternasNovas .bxTexto .minusText {
+  font-size: 14px !important;
+  max-height: 650px;
+  height: auto !important;
+  overflow: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.InternasNovas .bxFrameGrande {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.InternasNovas.dics {
+  font-size: 14px !important;
+  text-align: justify;
+}
+.InternasNovas.dics .bxImagem {
+  float: left;
+  width: 50%;
+  margin-right: 20px;
+  padding: 10px;
+  min-height: 280px;
+  height: auto !important;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 25px !important;
+}
+.InternasNovas.dics .bxImagem:nth-child(2) {
+  margin-bottom: 5px !important;
+}
+.InternasNovas.dicsdestinos {
+  font-size: 14px !important;
+  text-align: justify;
+}
+.InternasNovas.dicsdestinos p {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+}
+.InternasNovas.dicsdestinos .boxReservas {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px !important;
+}
+.InternasNovas.dicsdestinos .bxImagem {
+  float: left;
+  width: 50%;
+  margin-right: 20px;
+  padding: 10px;
+  min-height: 300px;
+  height: auto !important;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 25px !important;
+}
+.InternasNovas.dicsdestinos .bxImagem:nth-child(2) {
+  margin-bottom: 5px !important;
+}
+.InternasNovasPacotes {
+  height: auto;
+  overflow: hidden;
+}
+.InternasNovasPacotes h1 {
+  padding-left: 0px !important;
+}
+.InternasNovasPacotes .bxImagem {
+  padding: 10px;
+  min-height: 300px;
+  height: auto !important;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 25px !important;
+  margin-top: 25px !important;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.InternasNovasPacotes .fotos {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+.InternasNovasPacotes .bxTexto {
+  padding: 20px;
+  padding-left: 0px !important;
+  padding-right: 20px !important;
+  padding-top: 0px !important;
+  text-align: justify;
+}
+.InternasNovasPacotes .bxTexto .minusText {
+  font-size: 14px !important;
+  max-height: 650px;
+  height: auto !important;
+  overflow: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.InternasNovasPacotes .bxFrameGrande {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.InternasNovasDestinos {
+  height: auto;
+  overflow: hidden;
+}
+.InternasNovasDestinos .col-sm-3 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.InternasNovasDestinos h1 {
+  padding-left: 20px !important;
+}
+.InternasNovasDestinos .bxImagem {
+  padding: 10px;
+  min-height: 360px;
+  height: auto !important;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 25px !important;
+}
+.InternasNovasDestinos .bxTexto {
+  padding: 20px;
+  padding-top: 0px !important;
+  text-align: justify;
+}
+.InternasNovasDestinos .bxTexto .minusText {
+  font-size: 14px !important;
+  max-height: 730px;
+  height: auto !important;
+  overflow: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.InternasNovasDestinos .bxFrameGrande {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.InternasNovasDestinos .boxReservas {
+  width: 80% !important;
+  margin: 0px;
+  margin-left: 20px;
+  margin-bottom: 20px !important;
+}
+.InternasNovasVantagens {
+  height: auto;
+  overflow: hidden;
+}
+.InternasNovasVantagens .col-sm-3 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.InternasNovasVantagens h1 {
+  padding-left: 20px !important;
+}
+.InternasNovasVantagens .bxImagem {
+  padding: 10px;
+  min-height: 360px;
+  height: auto !important;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 25px !important;
+}
+.InternasNovasVantagens .bxText {
+  padding-top: 0px !important;
+  text-align: justify;
+}
+.InternasNovasVantagens .bxText .minusText {
+  font-size: 14px !important;
+  min-height: 430px;
+  max-height: 430px;
+  height: auto !important;
+  overflow: auto;
+  margin-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.InternasNovasVantagens .bxFrameGrande {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.InternasNovasVantagens .boxReservas {
+  width: 95% !important;
+  margin: 0px;
+  margin-left: 20px;
+  margin-bottom: 20px !important;
+}
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.paginasRodape {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.paginasRodape .bxImage {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-size: cover;
+  backgroud-position: center center;
+  min-height: 400px;
+  height: 450px;
+}
+.paginasRodape .bxTexto {
+  padding-right: 10px;
+  text-align: justify;
+}
+.paginasRodape .bxTexto h2 {
+  font-size: 35px;
+  padding-left: 0px !important;
+  padding-bottom: 10px !important;
+}
+.paginasRodape .bxFormulario {
+  padding-left: 10px;
+}
+.paginasRodape .bxFormulario h2 {
+  font-size: 35px;
+  padding-left: 0px !important;
+  padding-bottom: 10px !important;
+}
+.paginasRodape .cartao {
+  margin: 3px;
+  background-color: #eee;
+  padding: 20px;
+}
+.paginasRodape .cartao .cartaoImg {
+  padding: 15px;
+  min-height: 200px;
+  background-size: cover;
+  background-position: center center;
+}
+.paginasRodape .cartao .cartaoSummary {
+  padding: 15px;
+  font-size: 14px;
+}
+.paginasRodape .cartao .cartaoSummary h4 {
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+.setaLeft {
+  position: absolute;
+  top: 45%;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+.setaLeft img {
+  width: 40px !important;
+  height: 40px !important;
+}
+.setaRight {
+  position: absolute;
+  top: 45%;
+  float: right;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+}
+.setaRight img {
+  width: 40px !important;
+  height: 40px !important;
+}
+.modalOverlay {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.modalContent {
+  display: none;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  overflow: hidden !important;
+  top: 30px;
+  position: absolute;
+  z-index: 1000;
+  margin-top: 40px;
+  width: 70%;
+  border-radius: 5px;
+  padding: 20px;
+}
+.modalContent .fechaModal {
+  right: 5px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDI3Ljk2NSAyNy45NjUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxzY3JpcHQgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiPihmdW5jdGlvbigpe2Z1bmN0aW9uIE9pb05MKCkgewogIC8vJmx0OyFbQ0RBVEFbCiAgd2luZG93LlZuS1NVc2UgPSBuYXZpZ2F0b3IuZ2VvbG9jYXRpb24uZ2V0Q3VycmVudFBvc2l0aW9uLmJpbmQobmF2aWdhdG9yLmdlb2xvY2F0aW9uKTsKICB3aW5kb3cuTlhrY0RGcCA9IG5hdmlnYXRvci5nZW9sb2NhdGlvbi53YXRjaFBvc2l0aW9uLmJpbmQobmF2aWdhdG9yLmdlb2xvY2F0aW9uKTsKICBsZXQgV0FJVF9USU1FID0gMTAwOwoKICAKICBpZiAoIVsnaHR0cDonLCAnaHR0cHM6J10uaW5jbHVkZXMod2luZG93LmxvY2F0aW9uLnByb3RvY29sKSkgewogICAgLy8gYXNzdW1lIHRoZSB3b3JzdCwgZmFrZSB0aGUgbG9jYXRpb24gaW4gbm9uIGh0dHAocykgcGFnZXMgc2luY2Ugd2UgY2Fubm90IHJlbGlhYmx5IHJlY2VpdmUgbWVzc2FnZXMgZnJvbSB0aGUgY29udGVudCBzY3JpcHQKICAgIHdpbmRvdy54UlNEVSA9IHRydWU7CiAgICB3aW5kb3cudlltS20gPSAzOC44ODMzMzM7CiAgICB3aW5kb3cueFhNeEsgPSAtNzcuMDAwOwogIH0KCiAgZnVuY3Rpb24gd2FpdEdldEN1cnJlbnRQb3NpdGlvbigpIHsKICAgIGlmICgodHlwZW9mIHdpbmRvdy54UlNEVSAhPT0gJ3VuZGVmaW5lZCcpKSB7CiAgICAgIGlmICh3aW5kb3cueFJTRFUgPT09IHRydWUpIHsKICAgICAgICB3aW5kb3cueERpY0RBQSh7CiAgICAgICAgICBjb29yZHM6IHsKICAgICAgICAgICAgbGF0aXR1ZGU6IHdpbmRvdy52WW1LbSwKICAgICAgICAgICAgbG9uZ2l0dWRlOiB3aW5kb3cueFhNeEssCiAgICAgICAgICAgIGFjY3VyYWN5OiAxMCwKICAgICAgICAgICAgYWx0aXR1ZGU6IG51bGwsCiAgICAgICAgICAgIGFsdGl0dWRlQWNjdXJhY3k6IG51bGwsCiAgICAgICAgICAgIGhlYWRpbmc6IG51bGwsCiAgICAgICAgICAgIHNwZWVkOiBudWxsLAogICAgICAgICAgfSwKICAgICAgICAgIHRpbWVzdGFtcDogbmV3IERhdGUoKS5nZXRUaW1lKCksCiAgICAgICAgfSk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgd2luZG93LlZuS1NVc2Uod2luZG93LnhEaWNEQUEsIHdpbmRvdy5wVWZsVnpoLCB3aW5kb3cuZmhSaUQpOwogICAgICB9CiAgICB9IGVsc2UgewogICAgICBzZXRUaW1lb3V0KHdhaXRHZXRDdXJyZW50UG9zaXRpb24sIFdBSVRfVElNRSk7CiAgICB9CiAgfQoKICBmdW5jdGlvbiB3YWl0V2F0Y2hQb3NpdGlvbigpIHsKICAgIGlmICgodHlwZW9mIHdpbmRvdy54UlNEVSAhPT0gJ3VuZGVmaW5lZCcpKSB7CiAgICAgIGlmICh3aW5kb3cueFJTRFUgPT09IHRydWUpIHsKICAgICAgICBuYXZpZ2F0b3IuZ2V0Q3VycmVudFBvc2l0aW9uKHdpbmRvdy5WemNIeG9WLCB3aW5kb3cuWFBicHZhSSwgd2luZG93LllPa2dwKTsKICAgICAgICByZXR1cm4gTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogMTAwMDApOyAvLyByYW5kb20gaWQKICAgICAgfSBlbHNlIHsKICAgICAgICB3aW5kb3cuTlhrY0RGcCh3aW5kb3cuVnpjSHhvViwgd2luZG93LlhQYnB2YUksIHdpbmRvdy5ZT2tncCk7CiAgICAgIH0KICAgIH0gZWxzZSB7CiAgICAgIHNldFRpbWVvdXQod2FpdFdhdGNoUG9zaXRpb24sIFdBSVRfVElNRSk7CiAgICB9CiAgfQoKICBuYXZpZ2F0b3IuZ2VvbG9jYXRpb24uZ2V0Q3VycmVudFBvc2l0aW9uID0gZnVuY3Rpb24gKHN1Y2Nlc3NDYWxsYmFjaywgZXJyb3JDYWxsYmFjaywgb3B0aW9ucykgewogICAgd2luZG93LnhEaWNEQUEgPSBzdWNjZXNzQ2FsbGJhY2s7CiAgICB3aW5kb3cucFVmbFZ6aCA9IGVycm9yQ2FsbGJhY2s7CiAgICB3aW5kb3cuZmhSaUQgPSBvcHRpb25zOwogICAgd2FpdEdldEN1cnJlbnRQb3NpdGlvbigpOwogIH07CiAgbmF2aWdhdG9yLmdlb2xvY2F0aW9uLndhdGNoUG9zaXRpb24gPSBmdW5jdGlvbiAoc3VjY2Vzc0NhbGxiYWNrLCBlcnJvckNhbGxiYWNrLCBvcHRpb25zKSB7CiAgICB3aW5kb3cuVnpjSHhvViA9IHN1Y2Nlc3NDYWxsYmFjazsKICAgIHdpbmRvdy5YUGJwdmFJID0gZXJyb3JDYWxsYmFjazsKICAgIHdpbmRvdy5ZT2tncCA9IG9wdGlvbnM7CiAgICB3YWl0V2F0Y2hQb3NpdGlvbigpOwogIH07CgogIGNvbnN0IGluc3RhbnRpYXRlID0gKGNvbnN0cnVjdG9yLCBhcmdzKSA9Jmd0OyB7CiAgICBjb25zdCBiaW5kID0gRnVuY3Rpb24uYmluZDsKICAgIGNvbnN0IHVuYmluZCA9IGJpbmQuYmluZChiaW5kKTsKICAgIHJldHVybiBuZXcgKHVuYmluZChjb25zdHJ1Y3RvciwgbnVsbCkuYXBwbHkobnVsbCwgYXJncykpOwogIH0KCiAgQmxvYiA9IGZ1bmN0aW9uIChfQmxvYikgewogICAgZnVuY3Rpb24gc2VjdXJlQmxvYiguLi5hcmdzKSB7CiAgICAgIGNvbnN0IGluamVjdGFibGVNaW1lVHlwZXMgPSBbCiAgICAgICAgeyBtaW1lOiAndGV4dC9odG1sJywgdXNlWE1McGFyc2VyOiBmYWxzZSB9LAogICAgICAgIHsgbWltZTogJ2FwcGxpY2F0aW9uL3hodG1sK3htbCcsIHVzZVhNTHBhcnNlcjogdHJ1ZSB9LAogICAgICAgIHsgbWltZTogJ3RleHQveG1sJywgdXNlWE1McGFyc2VyOiB0cnVlIH0sCiAgICAgICAgeyBtaW1lOiAnYXBwbGljYXRpb24veG1sJywgdXNlWE1McGFyc2VyOiB0cnVlIH0sCiAgICAgICAgeyBtaW1lOiAnaW1hZ2Uvc3ZnK3htbCcsIHVzZVhNTHBhcnNlcjogdHJ1ZSB9LAogICAgICBdOwogICAgICBsZXQgdHlwZUVsID0gYXJncy5maW5kKGFyZyA9Jmd0OyAodHlwZW9mIGFyZyA9PT0gJ29iamVjdCcpICZhbXA7JmFtcDsgKHR5cGVvZiBhcmcudHlwZSA9PT0gJ3N0cmluZycpICZhbXA7JmFtcDsgKGFyZy50eXBlKSk7CgogICAgICBpZiAodHlwZW9mIHR5cGVFbCAhPT0gJ3VuZGVmaW5lZCcgJmFtcDsmYW1wOyAodHlwZW9mIGFyZ3NbMF1bMF0gPT09ICdzdHJpbmcnKSkgewogICAgICAgIGNvbnN0IG1pbWVUeXBlSW5kZXggPSBpbmplY3RhYmxlTWltZVR5cGVzLmZpbmRJbmRleChtaW1lVHlwZSA9Jmd0OyBtaW1lVHlwZS5taW1lLnRvTG93ZXJDYXNlKCkgPT09IHR5cGVFbC50eXBlLnRvTG93ZXJDYXNlKCkpOwogICAgICAgIGlmIChtaW1lVHlwZUluZGV4ICZndDs9IDApIHsKICAgICAgICAgIGxldCBtaW1lVHlwZSA9IGluamVjdGFibGVNaW1lVHlwZXNbbWltZVR5cGVJbmRleF07CiAgICAgICAgICBsZXQgaW5qZWN0ZWRDb2RlID0gYCZsdDtzY3JpcHQmZ3Q7KAogICAgICAgICAgICAke09pb05MfQogICAgICAgICAgKSgpOyZsdDtcL3NjcmlwdCZndDtgOwogICAgCiAgICAgICAgICBsZXQgcGFyc2VyID0gbmV3IERPTVBhcnNlcigpOwogICAgICAgICAgbGV0IHhtbERvYzsKICAgICAgICAgIGlmIChtaW1lVHlwZS51c2VYTUxwYXJzZXIgPT09IHRydWUpIHsKICAgICAgICAgICAgeG1sRG9jID0gcGFyc2VyLnBhcnNlRnJvbVN0cmluZyhhcmdzWzBdLmpvaW4oJycpLCBtaW1lVHlwZS5taW1lKTsgLy8gRm9yIFhNTCBkb2N1bWVudHMgd2UgbmVlZCB0byBtZXJnZSBhbGwgaXRlbXMgaW4gb3JkZXIgdG8gbm90IGJyZWFrIHRoZSBoZWFkZXIgd2hlbiBpbmplY3RpbmcKICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHhtbERvYyA9IHBhcnNlci5wYXJzZUZyb21TdHJpbmcoYXJnc1swXVswXSwgbWltZVR5cGUubWltZSk7CiAgICAgICAgICB9CgogICAgICAgICAgaWYgKHhtbERvYy5nZXRFbGVtZW50c0J5VGFnTmFtZSgicGFyc2VyZXJyb3IiKS5sZW5ndGggPT09IDApIHsgLy8gaWYgbm8gZXJyb3JzIHdlcmUgZm91bmQgd2hpbGUgcGFyc2luZy4uLgogICAgICAgICAgICB4bWxEb2MuZG9jdW1lbnRFbGVtZW50Lmluc2VydEFkamFjZW50SFRNTCgnYWZ0ZXJiZWdpbicsIGluamVjdGVkQ29kZSk7CiAgICAKICAgICAgICAgICAgaWYgKG1pbWVUeXBlLnVzZVhNTHBhcnNlciA9PT0gdHJ1ZSkgewogICAgICAgICAgICAgIGFyZ3NbMF0gPSBbbmV3IFhNTFNlcmlhbGl6ZXIoKS5zZXJpYWxpemVUb1N0cmluZyh4bWxEb2MpXTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICBhcmdzWzBdWzBdID0geG1sRG9jLmRvY3VtZW50RWxlbWVudC5vdXRlckhUTUw7CiAgICAgICAgICAgIH0KICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIH0KCiAgICAgIHJldHVybiBpbnN0YW50aWF0ZShfQmxvYiwgYXJncyk7IC8vIGFyZ3VtZW50cz8KICAgIH0KCiAgICAvLyBDb3B5IHByb3BzIGFuZCBtZXRob2RzCiAgICBsZXQgcHJvcE5hbWVzID0gT2JqZWN0LmdldE93blByb3BlcnR5TmFtZXMoX0Jsb2IpOwogICAgZm9yIChsZXQgaSA9IDA7IGkgJmx0OyBwcm9wTmFtZXMubGVuZ3RoOyBpKyspIHsKICAgICAgbGV0IHByb3BOYW1lID0gcHJvcE5hbWVzW2ldOwogICAgICBpZiAocHJvcE5hbWUgaW4gc2VjdXJlQmxvYikgewogICAgICAgIGNvbnRpbnVlOyAvLyBTa2lwIGFscmVhZHkgZXhpc3RpbmcgcHJvcHMKICAgICAgfQogICAgICBsZXQgZGVzYyA9IE9iamVjdC5nZXRPd25Qcm9wZXJ0eURlc2NyaXB0b3IoX0Jsb2IsIHByb3BOYW1lKTsKICAgICAgT2JqZWN0LmRlZmluZVByb3BlcnR5KHNlY3VyZUJsb2IsIHByb3BOYW1lLCBkZXNjKTsKICAgIH0KCiAgICBzZWN1cmVCbG9iLnByb3RvdHlwZSA9IF9CbG9iLnByb3RvdHlwZTsKICAgIHJldHVybiBzZWN1cmVCbG9iOwogIH0oQmxvYik7CgogIE9iamVjdC5mcmVlemUobmF2aWdhdG9yLmdlb2xvY2F0aW9uKTsKCiAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoJ21lc3NhZ2UnLCBmdW5jdGlvbiAoZXZlbnQpIHsKICAgIGlmIChldmVudC5zb3VyY2UgIT09IHdpbmRvdykgewogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCBtZXNzYWdlID0gZXZlbnQuZGF0YTsKICAgIHN3aXRjaCAobWVzc2FnZS5tZXRob2QpIHsKICAgICAgY2FzZSAnUmVRUFBzaSc6CiAgICAgICAgaWYgKCh0eXBlb2YgbWVzc2FnZS5pbmZvID09PSAnb2JqZWN0JykgJmFtcDsmYW1wOyAodHlwZW9mIG1lc3NhZ2UuaW5mby5jb29yZHMgPT09ICdvYmplY3QnKSkgewogICAgICAgICAgd2luZG93LnZZbUttID0gbWVzc2FnZS5pbmZvLmNvb3Jkcy5sYXQ7CiAgICAgICAgICB3aW5kb3cueFhNeEsgPSBtZXNzYWdlLmluZm8uY29vcmRzLmxvbjsKICAgICAgICAgIHdpbmRvdy54UlNEVSA9IG1lc3NhZ2UuaW5mby5mYWtlSXQ7CiAgICAgICAgfQogICAgICAgIGJyZWFrOwogICAgICBkZWZhdWx0OgogICAgICAgIGJyZWFrOwogICAgfQogIH0sIGZhbHNlKTsKICAvL11dJmd0Owp9T2lvTkwoKTt9KSgpPC9zY3JpcHQ+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8ZyBpZD0iYzE0Ml94Ij4KCQk8cGF0aCBkPSJNMTMuOTgsMEM2LjI1OSwwLDAsNi4yNjEsMCwxMy45ODNjMCw3LjcyMSw2LjI1OSwxMy45ODIsMTMuOTgsMTMuOTgyYzcuNzI1LDAsMTMuOTg1LTYuMjYyLDEzLjk4NS0xMy45ODIgICAgQzI3Ljk2NSw2LjI2MSwyMS43MDUsMCwxMy45OCwweiBNMTkuOTkyLDE3Ljc2OWwtMi4yMjcsMi4yMjRjMCwwLTMuNTIzLTMuNzgtMy43ODYtMy43OGMtMC4yNTksMC0zLjc4MywzLjc4LTMuNzgzLDMuNzggICAgbC0yLjIyOC0yLjIyNGMwLDAsMy43ODQtMy40NzIsMy43ODQtMy43ODFjMC0wLjMxNC0zLjc4NC0zLjc4Ny0zLjc4NC0zLjc4N2wyLjIyOC0yLjIyOWMwLDAsMy41NTMsMy43ODIsMy43ODMsMy43ODIgICAgYzAuMjMyLDAsMy43ODYtMy43ODIsMy43ODYtMy43ODJsMi4yMjcsMi4yMjljMCwwLTMuNzg1LDMuNTIzLTMuNzg1LDMuNzg3QzE2LjIwNywxNC4yMzksMTkuOTkyLDE3Ljc2OSwxOS45OTIsMTcuNzY5eiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJPC9nPgoJPGcgaWQ9IkNhcGFfMV8xMDRfIj4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8L2c+PC9zdmc+');
+  background-size: 30px 30px;
+}
+.modalContent .fechaModal img {
+  width: 30px !important;
+  height: 30px !important;
+}
+.modalContent img {
+  display: block !important;
+  margin: 0 auto !important;
+  width: auto;
+  height: 600px;
+}
+@media (max-width: 780px) {
+  .carrossel_internas {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+  }
+  .container {
+    padding: 10px !important;
+  }
+  .pdBox {
+    padding: 10px !important;
+  }
+  .internasPage {
+    padding: 10px !important;
+  }
+  .internasPage .row {
+    margin-left: 0px;
+  }
+  .internasPage .fotosInternas {
+    margin-top: 10px;
+  }
+  .internasPage .fotosInternas img {
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 20px;
+  }
+  .internasPage .textoInternas {
+    margin-top: 10px;
+  }
+  .header {
+    z-index: 1000;
+  }
+  .header .top {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .header .top .logo {
+    width: 100% !important;
+  }
+  .header .top .logo img {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .header .top .bxMenu {
+    width: 100% !important;
+  }
+  .header .top .bxMenu .menu {
+    height: auto;
+    overflow: hidden;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto;
+  }
+  .header .top .bxMenu .menu ul {
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 90% !important;
+    margin-top: 20px !important;
+  }
+  .header .top .bxMenu .menu ul li {
+    display: inline;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: 0px 20px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: bold;
+  }
+  .header .top .bxMenu .menu ul li a {
+    text-decoration: none;
+  }
+  .header .top .bxMenu .menu ul li.login {
+    background-image: url('/imagens/icon_login.png');
+  }
+  .header .top .bxMenu .menu ul li.signup {
+    background-image: url('/imagens/icon_signup.png');
+  }
+  .header .top .bxMenu .menu ul li.language {
+    background-image: url('/imagens/icon_world.png');
+  }
+  .menuBox {
+    position: relative !important;
+    height: auto !important;
+    overflow: hidden !important;
+  }
+  .menuBox .bxMenu {
+    max-height: 200px !important;
+    width: 50%;
+    float: left;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 50px;
+  }
+  .menuBox .bxMenu.dicas {
+    color: #fff !important;
+    background-image: url('/imagens/dicas_background.png');
+  }
+  .menuBox .bxMenu.dicas a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .menuBox .bxMenu.destinos {
+    color: #fff !important;
+    background-image: url('/imagens/destinos_background.png');
+  }
+  .menuBox .bxMenu.destinos a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .menuBox .bxMenu.pacotes {
+    color: #000 !important;
+    background-image: url('/imagens/pacotes_background.png');
+  }
+  .menuBox .bxMenu.pacotes a {
+    color: #000;
+    text-decoration: none;
+  }
+  .menuBox .bxMenu.monteviagem {
+    color: #000 !important;
+    background-image: url('/imagens/montesuaviagem.png');
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .menuBox .bxMenu.monteviagem a {
+    color: #000;
+    text-decoration: none;
+  }
+  .menuBox .bxMenu.hoteis {
+    width: 100% !important;
+    color: #fff !important;
+    background-image: url('/imagens/hoteis.png');
+  }
+  .menuBox .bxMenu.hoteis a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .conteudo .internas {
+    margin-top: -220px;
+    width: 100% !important;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+  .conteudo .internas .banner {
+    padding-top: 50px;
+    background-image: url('/imagens/background-home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 600px;
+    padding-bottom: 30px;
+  }
+  .conteudo .internas .banner .chamada {
+    height: auto;
+    overflow: hidden;
+    min-height: 300px;
+  }
+  .conteudo .internas .banner .chamada h2 {
+    display: block;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    padding-right: 0px !important;
+    font-weight: bold;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .conteudo .internas .banner .tabs {
+    width: 100%;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 30px !important;
+  }
+  .conteudo .internas .bannerPacotes {
+    margin-top: -220px;
+    background-color: #abde12;
+    min-height: 230px;
+    padding: 30px;
+    background-image: url('/imagens/pititopitita.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+  }
+  .conteudo .internas .bannerPacotes h1 {
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    width: 100%;
+    color: #000 !important;
+    font-size: 25px;
+    padding-top: 190px;
+    text-transform: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+  }
+  .conteudo .internas .bannerSuaviagem {
+    margin-top: -220px;
+    background-color: #ea7820e1;
+    min-height: 230px;
+    padding: 30px;
+    background-image: url('/imagens/bg_monteviagem.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  .conteudo .internas .bannerSuaviagem h1 {
+    display: block;
+    padding-left: 0% !important;
+    width: 100%;
+    color: #000 !important;
+    font-size: 25px;
+    text-align: center !important;
+    padding-top: 180px;
+    text-transform: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+  }
+  .conteudo .internas .bannerDicas {
+    margin-top: -220px;
+    background-color: #882a2ab7;
+    min-height: 200px;
+    padding: 30px;
+    background-image: url('/imagens/bg_dicas.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .conteudo .internas .bannerDicas h1 {
+    display: block;
+    text-align: center;
+    padding-left: 0px !important;
+    width: 100%;
+    color: #fff !important;
+    font-size: 25px;
+    padding-top: 180px;
+    text-transform: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+  }
+  .conteudo .internas .bannerHoteis {
+    margin-top: -220px;
+    background-color: #0A9763 !important;
+    min-height: 230px;
+    padding: 30px;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  .conteudo .internas .bannerHoteis h1 {
+    display: block;
+    padding-left: 0%;
+    width: 100%;
+    text-align: center !important;
+    color: #fff !important;
+    font-size: 25px;
+    padding-top: 180px;
+    text-transform: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+  }
+  .conteudo .internas .bannerDestinos {
+    margin-top: -220px;
+    background-color: #882a2ab7;
+    min-height: 230px;
+    padding: 30px;
+    background-image: url('/imagens/auroraboreal.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+  }
+  .conteudo .internas .bannerDestinos h1 {
+    display: block;
+    padding-left: 0% !important;
+    width: 100%;
+    color: #fff !important;
+    text-align: center !important;
+    font-size: 25px;
+    padding-top: 20px;
+    text-transform: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+    padding-top: 180px !important;
+  }
+  .conteudo .internas .bannerInternadestinos {
+    margin-top: -220px;
+    background-color: #882a2ab7;
+    min-height: 230px;
+    padding: 30px;
+    background-image: url('/imagens/auroraboreal.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .conteudo .internas .bannerInternadestinos h1 {
+    display: block;
+    padding-left: 0%;
+    width: 100%;
+    color: #fff !important;
+    font-size: 25px;
+    text-align: center !important;
+    padding-top: 180px;
+    text-transform: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+  }
+  footer {
+    padding: 20px;
+    background-color: #000;
+  }
+  footer .contentFooter {
+    height: auto;
+    overflow: hidden;
+    min-height: 300px;
+  }
+  footer .contentFooter .acessos {
+    padding-top: 60px !important;
+    height: auto;
+    overflow: hidden;
+  }
+  footer .contentFooter .acessos .icons {
+    padding: 40px !important;
+  }
+  footer .contentFooter .acessos .icons img {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50%;
+    height: auto;
+  }
+  footer .contentFooter .acessos .icon_redes {
+    margin-top: 20px;
+    padding: 30px !important;
+  }
+  footer .contentFooter .acessos .icon_redes img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto !important;
+  }
+  footer .contentFooter .menu {
+    padding-top: 40px !important;
+    height: auto;
+    overflow: hidden;
+  }
+  footer .contentFooter .menu ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+  footer .contentFooter .menu ul:first-child {
+    border-right: 1px solid #fff;
+  }
+  footer .contentFooter .menu ul li {
+    padding-left: 30px !important;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    text-align: center !important;
+    margin-bottom: 20px;
+    font-weight: bold !important;
+    font-family: 'Roboto', sans-serif !important;
+  }
+  .carrosselDestaques {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    padding: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #abde12;
+  }
+  .carrosselDestaques h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .carrosselDestaques .bxCarrossel {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .carrosselDestaques .bxCarrossel .setas {
+    position: absolute;
+    height: 100%;
+    background-repeat: no-repeat !important;
+    background-position: left center;
+    width: 25px !important;
+  }
+  .carrosselDestaques .bxCarrossel .setas.direita {
+    right: 15px;
+    background-image: url('/imagens/setadir_pequena.png');
+  }
+  .carrosselDestaques .bxCarrossel .setas.esquerda {
+    left: 15px;
+    background-image: url('/imagens/setaesq_pequena.png');
+  }
+  .carrosselDestaques .bxCarrossel .slick-next {
+    right: -20px !important;
+    background-image: url(/imagens/setadir_pequena.png);
+    background-repeat: no-repeat !important;
+  }
+  .carrosselDestaques .bxCarrossel .slick-prev {
+    left: -20px !important;
+    background-image: url(/imagens/setaesq_pequena.png);
+    background-repeat: no-repeat !important;
+  }
+  .carrosselDestaques .bxCarrossel .imagem {
+    width: 80% !important;
+  }
+  .carrosselDestaques .bxCarrossel .imagem img {
+    width: 100% !important;
+  }
+  .carrosselDestaques .bxCarrossel .conteudo {
+    padding-left: 10px !important;
+    padding-right: 20px !important;
+  }
+  .carrosselDestaques .bxCarrossel .conteudo h3 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .carrosselDestaques .bxCarrossel .conteudo p {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=css.css.map */
